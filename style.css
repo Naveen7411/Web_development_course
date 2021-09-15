@@ -1,0 +1,16 @@
+.align{
+    text-align: center;
+}
+.align>span{
+    font-size: 1.4rem ;  
+}
+
+.align>ul{
+display: flex;
+justify-content: space-evenly;
+}
+.align>ul>li
+{
+    list-style: square;
+    font-size: 2rem;;
+}
