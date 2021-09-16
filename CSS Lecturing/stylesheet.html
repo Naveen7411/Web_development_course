@@ -18,25 +18,84 @@
         }
         .ali{
             text-align: justify;
+            margin-left: 5px;
         }
         #new{
+            margin-top: 2rem;
+            margin-left: 25%;
             display: flex;
             width: 50%;
-            position: relative;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            flex-direction: column;
             
+        }
+        li{
+            
+            text-align: center;
+            list-style: none;  
+        }
+        a:link,a:visited{
+            text-decoration: none;
+            display: block;
+            background-color: aqua;
+            border: 1px solid black;
+            width: 200px;
+            /* align-items: center;
+             */
+             text-align: center;
+             margin-bottom: 5px;
+        }
+        a:hover,a:active{
+            background-color: rgb(127, 143, 218);
+            font-size: large;
+            font-style: italic;
+        }
+        section div:nth-child(odd)
+        {
+            background-color: brown;
+        }
+        section div:nth-child(even):hover
+        {
+            background-color: rgb(215, 144, 233);
         }
     </style>
 </head>
 <body>
     <h1>Hello Everyone!</h1> <hr>
 <div class="displayflex">
-    <div class="ali" style="background-color: rgb(236, 192, 192); padding: 1px 1px 1px 1px;">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
-    <div class="ali"style="background-color: darkgray;padding: 5px 5px 5px 5px;">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
-</div><br>
-<!-- //directing -->
-<div id="new">
-    <div class="ali" style="background-color: rgb(117, 110, 110); padding: 1px 1px 1px 1px;">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
-    <div class="ali" style="background-color: rgb(166, 182, 231)  ;padding: 5px 5px 5px 5px;">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
+    <div class="ali" style="background-color: rgb(236, 192, 192); ">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
+    <div class="ali"style="background-color: darkgray;padding: ">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
+    
 </div>
+<!--  -->
+<div id="new">
+    <div class="ali" style="background-color: rgb(117, 110, 110); margin-bottom: 5px;">Wikipedia is </div>
+    <div class="ali" style="background-color: red;margin-bottom: 5px; ">Wikipedia is a free online encyclopedia, created and .</div>
+    <div class="ali" style="background-color: rgb(166, 182, 231)  ;margin-bottom: 5px;">Wikipedia is a free online encyclopedia, created and edited by v.</div>
+</div>
+<hr>
+<h1>Pseudo class</h1>
+
+<ul>
+    <li><a href="#">hello</a></li>
+    <li><a href="#">world</a></li>
+    <li><a href="#">pesudo</a></li>
+    <li><a href="#">program</a></li>
+</ul>
+
+<section>
+    <div>div1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+</section>
 </body>
 </html>
