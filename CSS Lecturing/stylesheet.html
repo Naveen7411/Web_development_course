@@ -21,14 +21,19 @@
             margin-left: 5px;
         }
         #new{
-            margin-top: 2rem;
-            margin-left: 25%;
+             margin-top: 2rem; 
+            /* margin-left: 25%; */
             display: flex;
-            width: 50%;
+            width: 100%;
+            text-align: center;
             /* flex-wrap: wrap; */
             justify-content: space-between;
             flex-direction: column;
             
+        }
+        #new>.ali{
+            
+           margin: auto;
         }
         li{
             
@@ -36,6 +41,7 @@
             list-style: none;  
         }
         a:link,a:visited{
+            margin: auto;
             text-decoration: none;
             display: block;
             background-color: aqua;
@@ -64,7 +70,38 @@
             background-color:rgb(132, 228, 230) ;
             font-size: large;
         }
-        
+
+        .conflicat{
+            margin: auto;
+            width: 50%;
+            padding: 10px;;
+            /* display: block; */
+            /* background-color: bisque; */
+            /* color: aqua; */
+            text-align: center;
+            font-size: 16px;
+            
+        }
+        table{
+            
+            border-style: 1px solid;
+        }
+        #Fontdesign{
+            margin:auto;
+            background-color: aquamarine;
+            text-align: center;
+            width: 50%;
+        }
+#Fontdesign p {
+
+    /* margin: auto; */
+  font-weight: solid;
+  font-size: 24px;
+  text-align:justify;
+    text-transform: uppercase;
+  color: blue;
+}
+     
         
     </style>
 </head>
@@ -77,12 +114,12 @@
 </div>
 <!--  -->
 <div id="new">
-    <div class="ali" style="background-color: rgb(117, 110, 110); margin-bottom: 5px;">Wikipedia is </div>
-    <div class="ali" style="background-color: red;margin-bottom: 5px; ">Wikipedia is a free online encyclopedia, created and .</div>
-    <div class="ali" style="background-color: rgb(166, 182, 231)  ;margin-bottom: 5px;">Wikipedia is a free online encyclopedia, created and edited by v.</div>
+    <div class="ali" style="background-color: rgb(117, 110, 110); margin-bottom: 5px;">Wikipedia isWikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation. </div>
+    <div class="ali" style="background-color: red;margin-bottom: 5px; ">Wikipedia is a free online encyclopedia, created and .Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</div>
+    <div class="ali" style="background-color: rgb(166, 182, 231)  ;margin-bottom: 5px;">Wikipedia is a free online encyclopedia, created and edited by v Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation..</div>
 </div>
 <hr>
-<h1>Pseudo class</h1>
+<h1>Pseudo class</h1> 
 
 <ul>
     <li><a href="#">hello</a></li>
@@ -104,5 +141,41 @@
     <div>10</div>
     <div>11</div>
 </section>
+
+<div class="conflicat">
+    <table border="1" style="margin: auto;" >
+        <th colspan="4">conflicat</th>
+<tr>
+    <td>Orign</td>
+    <td>merge</td>
+    <td>inheritance</td>
+    <td>specification</td>
+</tr>
+<tr>
+    <th colspan="4" >Specificity</th>
+</tr>
+<tr>
+    <td>Inline (Style="")</td>
+    <td>ID (#id selector)</td>
+    <td>class (.CLASS Selector)</td>
+    <td># of elements</td>
+</tr>
+    </table>
+</div>
+    <hr>
+<section id="Fontdesign">
+<h2>Font styling</h2>
+<p>
+Say something, I'm giving up on you
+I'll be the one, if you want me to
+Anywhere, I would've followed you
+Say something, I'm giving up on you
+And I am feeling so small
+It was over my head
+I know nothing at all
+</p>
+</section>
+<div id="relaivefont"></div>
+</div>
 </body>
 </html>

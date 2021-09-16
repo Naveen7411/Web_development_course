@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model </title>
+    <style>
+        body{
+            background-color: rgb(243, 220, 190);
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+             color: red;   
+             text-align: center;
+            font-size: 4em;
+        }
+        .box{
+            padding: 10%;
+            background-color: rgb(193, 193, 253);
+            border: 3px solid;
+            margin: 40px;
+            height: 40px;
+            overflow: hidden;
+            overflow-y: scroll;
+                    }
+        .container{
+            background-color: rgb(218, 247, 228);
+            font-size: 3em;
+            font-weight: 500;
+            text-align: center;
+        }
+        #bg{
+            text-align: center;
+            font-size: 2em;
+            background-color: rgb(131, 240, 240);
+            margin: auto;
+            margin-bottom: 20px;
+            height: 20rem;
+            width: 80%;
+            background-image: url("../images/displayimg.jpg")  ;
+            background-repeat:no-repeat;
+            background-position: center ; 
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <div class="box"><div class="container">Example for Box </div></div>
+
+    <div id="bg">
+        cheking the Background prooperties
+    </div>
+</body>
+</html>
