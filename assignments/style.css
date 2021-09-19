@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: rgb(11, 0, 73);
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section{
+    width: 30%;
+    border: 4px solid black;
+    margin: 10PX;
+    background-color: rgb(210, 248, 159);
+    position: relative;
+    float: left;
+   
+}
+
+#heading{
+  color: rgb(3, 60, 110);
+    text-align: center;
+    border: 4px solid rgb(12, 12, 12);
+    font-size: 2rem;
+    font-weight: 700;
+    width: 30%;
+    float: right;
+}
+
+p{
+    clear: both;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 5px;
+}
+
+.row{
+    width:100%
+}
+
+@media (min-width: 992px)  {
+  body{
+    background-color: rgb(178, 231, 245);
+  }
+}
+  /********** Medium devices only **********/
+  @media (min-width: 768px) AND (max-width: 991px)  {
+    body{
+      background-color: rgb(181, 250, 204);
+    }
+    .section{
+      width: 45%;
+    }
+    .col-md-3{
+      width: 92%;
+    }
+  }
+
+  @media (max-width: 767px)
+  {
+    body{
+      background-color: rgb(235, 183, 174);
+    }
+    .section{
+      width: 90%;
+    }
+  }
+    
